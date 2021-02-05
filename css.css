@@ -1,0 +1,46 @@
+.images img {
+  width: 70vw;
+  height: auto;
+}
+
+.images {
+  position:absolute;
+  display:flex;
+  height:80%;
+  width:100%;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  font-size: 10vw;
+  
+}
+.slides {
+  display:none;
+}
+
+.arrows {
+  display:flex;
+  position:absolute;
+  top:85%;
+  width:100%;
+  justify-content: center;
+  
+}
+
+.arrows button {
+  font-size: 10vh;
+  font-family: 'Courier New', Courier, monospace;
+  color:rgb(209, 198, 198);
+  background-color: salmon;
+  border:black;
+  border-width: 0.125vh;
+  border-style: solid;
+  margin-left: 1vh;
+  border-radius: 3%;
+}
+
+body {
+  background-color: rosybrown;
+
+}
+
